@@ -1,0 +1,54 @@
+body {
+	background-color: #339966;
+}
+
+.title {
+	text-align: center;
+}
+
+
+/* Form rules */
+.form {
+	border-style: solid;
+	border-color: black;
+	border-width: medium;
+	margin-top: 100px;
+	margin-right: 30%;
+	margin-left: 30%;
+}
+
+.form h2 {
+	padding-left: 15px;
+}
+
+.form input {
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+
+.form button {
+	border-radius: 8px;
+	background-color: orange;
+	font-size: 20px;
+	border-color: orange;
+}
+
+.form label {
+	font-size: 20px;
+}
+
+/* Font-face rules */
+@font-face {
+	font-family: "Variane Script";
+	src: url("../fonts/variane_script.ttf");
+}
+
+.title h1 {
+	font-family: 'Variane Script', sans-serif;
+	font-size: 50px;
+}
+
+.title p {
+	font-size: 20px;
+	font-weight: bold;
+}

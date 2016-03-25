@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Log-In & Registration App</title>
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="title">
+	<h1>Log-In</h1>
+	<p>Register to log-in.</p>
+	</div>
+
+	<div class="form">
+	<form> 
+		<h2>Login</h2>
+		<input type="text" placeholder="enter username" id="username">
+		<input type="password" placeholder="password" id="password">
+		<button type="button" onclick="getInfo()">login</button>
+	</form>
+
+	<form>
+		<h2>Register</h2>
+		<input type="text" placeholder="create username" id="newUsername">
+		<input type="password" placeholder="password" id="newPassword">
+		<input type="checkbox" id="showPwd">
+		<label for="showPwd">Show Password</label>
+		<button type="button" onclick="registerUser()">register</button>
+	</form>
+	</div>
+
+	<script src="js/main.js"></script>
+</body>
+</html>
